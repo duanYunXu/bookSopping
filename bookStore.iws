@@ -1,0 +1,1300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="bookStore" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24f7da64-76da-4c82-9bde-be542a482ea0" name="Default" comment="图书商城">
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mymetadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/.jsdtscope" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/com.genuitec.eclipse.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/Utils/CommonUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/Utils/EntranceFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/Utils/Expression.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/Utils/JdbcUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/Utils/MyQueryRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/Utils/MyServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/Utils/PageBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/Utils/PageConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/Utils/RightRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/Utils/VerifyCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/Utils/VerifyCodeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/admin/dao/AdminDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/admin/domain/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/admin/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/admin/servlet/AdminLoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/admin/servlet/AdminServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/book/dao/BookDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/book/domain/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/book/service/BookService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/book/servlet/AdminAddBookServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/book/servlet/AdminBookServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/book/servlet/BookServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/cart/dao/CartItemDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/cart/domain/CartItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/cart/service/CartItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/cart/servlet/CartItemServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/category/dao/CategoryDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/category/domain/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/category/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/category/servlet/AdminCategoryServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/category/servlet/CategoryServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/order/dao/OrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/order/domain/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/order/domain/OrderItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/order/service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/order/servlet/AdminOrderServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/order/servlet/OrderServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/user/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/user/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/user/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/user/service/exception/UserException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/user/servlet/LoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/bookStore/goods/user/servlet/UserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/activation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/c3p0-0.9.2-pre1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-dbutils-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-fileupload-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-io-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-lang-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/javaee.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/jsf-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/jsf-impl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/log4j-1.2.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/mail.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/mchange-commons-0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/mysql-connector-java-8.0.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/body.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/book/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/book/body.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/book/desc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/book/gj.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/book/left.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/book/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/book/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/category/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/category/add2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/category/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/category/edit2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/category/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/css/book/add.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/css/book/desc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/css/book/left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/css/book/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/css/book/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/css/category/category.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/css/category/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/css/mymenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/css/order/desc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/css/order/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/js/book/desc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/js/book/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/js/mymenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/msg.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/order/desc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/order/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/admin/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/adminjsps/msg.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/001_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/001_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/002_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/002_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/003_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/003_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/004_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/004_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/005_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/005_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/006_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/006_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/007_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/007_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/008_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/008_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/009_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/009_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/010_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/010_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/011_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/011_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/012_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/012_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/013_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/013_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/014_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/014_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/015_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/015_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/016_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/016_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/017_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/017_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/018_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/018_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/019_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/019_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/020_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/020_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/021_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/021_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/022_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/022_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/023_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/023_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/024_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/024_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/025_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/025_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/026_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/026_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/027_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/027_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/028_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/028_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/029_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/029_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/030_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/030_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/031_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/031_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/032_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/032_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/033_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/033_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/034_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/034_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/035_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/035_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/036_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/book_img/036_w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/body.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/book/desc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/book/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/bookRanking.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/cart/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/cart/showitem.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/css/body.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/css/book/desc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/css/book/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/css/cart/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/css/cart/showitem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/css/left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/css/order/desc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/css/order/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/css/order/ordersucc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/css/order/pay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/css/top.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/css/user/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/css/user/pwd.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/css/user/pwd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/css/user/regist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/js/user/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/js/user/regist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/left.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/msg.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/msg1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/order/desc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/order/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/order/ordersucc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/order/pay.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/pager/pager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/pager/pager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/user/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/user/pwd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/frontpages/user/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/addBook.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/bg_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/bg_btns.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/bt_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/btn.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/cartempty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/confirm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/cuohao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/duihao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/dwq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/footbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/gh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/happy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/hei_1_btn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/hong_1_btn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/hong_2_btn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/huang_1_btn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/huang_2_btn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/iconBack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/iconBook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/iconCart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/iconClassfity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/icon_empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/login1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/login2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/login_sprites_20110808.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/loginbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/mhzxxls.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/paginating_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/qd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/regist1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/regist2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/register_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/search.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/select_key_star_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/sprites_orderdetails.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/star.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/symble-diy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/symble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/unhappy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/images/xiaoshou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/jquery/calendar-green.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/jquery/calendar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/jquery/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/jquery/jquery-1.5.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/jquery/jquery.datepick-zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/jquery/jquery.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/jquery/jquery.datepick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/js/round.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookStore.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookStore.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookStore.iws" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/good.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/admin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/adminOrder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/bookdesc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/bookmanage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/delandedit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/order.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/register.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/show.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/bookStore/bookStore.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/Utils/CommonUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/Utils/EntranceFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/Utils/Expression.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/Utils/JdbcUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/Utils/MyQueryRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/Utils/MyServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/Utils/PageBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/Utils/PageConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/Utils/RightRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/Utils/VerifyCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/Utils/VerifyCodeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/admin/dao/AdminDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/admin/domain/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/admin/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/admin/servlet/AdminLoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/admin/servlet/AdminServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/book/dao/BookDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/book/domain/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/book/service/BookService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/book/servlet/AdminAddBookServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/book/servlet/AdminBookServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/book/servlet/BookServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/cart/dao/CartItemDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/cart/domain/CartItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/cart/service/CartItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/cart/servlet/CartItemServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/category/dao/CategoryDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/category/domain/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/category/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/category/servlet/AdminCategoryServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/category/servlet/CategoryServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/order/dao/OrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/order/domain/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/order/domain/OrderItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/order/service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/order/servlet/AdminOrderServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/order/servlet/OrderServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/user/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/user/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/user/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/user/service/exception/UserException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/user/servlet/LoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/com/bookStore/goods/user/servlet/UserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/bookStore/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/Utils/CommonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/Utils/EntranceFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/Utils/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/Utils/JdbcUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/Utils/MyQueryRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/Utils/MyServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/Utils/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/Utils/PageConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/Utils/RightRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/Utils/VerifyCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/Utils/VerifyCodeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/admin/dao/AdminDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/admin/domain/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/admin/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/admin/servlet/AdminLoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/admin/servlet/AdminServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/book/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/book/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/book/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/book/servlet/AdminAddBookServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/book/servlet/AdminBookServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/book/servlet/BookServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/cart/dao/CartItemDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/cart/domain/CartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/cart/service/CartItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/cart/servlet/CartItemServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/category/dao/CategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/category/domain/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/category/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/category/servlet/AdminCategoryServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/category/servlet/CategoryServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/order/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/order/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/order/domain/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/order/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/order/servlet/AdminOrderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/order/servlet/OrderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/user/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/user/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/user/service/exception/UserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/user/servlet/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookStore/goods/user/servlet/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/WebRoot/frontpages/left.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/frontpages/css/book/desc.css" />
+        <option value="$PROJECT_DIR$/WebRoot/frontpages/pager/pager.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/frontpages/css/book/list.css" />
+        <option value="$PROJECT_DIR$/src/com/bookStore/goods/order/servlet/OrderServlet.java" />
+        <option value="$PROJECT_DIR$/WebRoot/frontpages/body.jsp" />
+        <option value="$PROJECT_DIR$/src/com/bookStore/goods/book/servlet/AdminBookServlet.java" />
+        <option value="$PROJECT_DIR$/WebRoot/frontpages/main.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/frontpages/top.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/adminjsps/admin/book/list.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/adminjsps/admin/book/body.jsp" />
+        <option value="$PROJECT_DIR$/src/com/bookStore/goods/admin/servlet/AdminLoginFilter.java" />
+        <option value="$PROJECT_DIR$/WebRoot/adminjsps/admin/css/book/add.css" />
+        <option value="$PROJECT_DIR$/WebRoot/adminjsps/admin/book/add.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="475" />
+    <option name="y" value="75" />
+    <option name="width" value="1400" />
+    <option name="height" value="990" />
+  </component>
+  <component name="ProjectId" id="2IWnJw76dTOPdzF6UzDS1CtLVpK" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bookStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookStore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java-ShuCheng" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\data\workspace\OnlineBookStore\WebRoot\WEB-INF\lib" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.82" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.82" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/bookStore_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="bookStore">
+          <settings>
+            <option name="CONTEXT_PATH" value="/bookStore_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="8442ce9f-945e-445a-b5c7-c6ba5cd4e7af" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55969" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JProfiler">
+        <option name="jreHome" value="C:/Program Files/Java/jdk1.8.0_331" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JProfiler">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="bookStore" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24f7da64-76da-4c82-9bde-be542a482ea0" name="Default" comment="" />
+      <created>1530583348724</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530583348724</updated>
+      <workItem from="1530583351688" duration="15611000" />
+      <workItem from="1670306141093" duration="3715000" />
+      <workItem from="1670311687493" duration="3407000" />
+      <workItem from="1670315136124" duration="1082000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15611000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30845225" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="图书商城" />
+    <option name="LAST_COMMIT_MESSAGE" value="图书商城" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WebRoot/frontpages/css/left.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/adminjsps/admin/css/mymenu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/adminjsps/admin/js/mymenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1380">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1393226818000" expanded="true" signature="3370:3495" ph="..." />
+            <marker date="1393226818000" expanded="true" signature="3625:3691" ph="..." />
+            <marker date="1393226818000" expanded="true" signature="3931:3997" ph="..." />
+            <marker date="1393226818000" expanded="true" signature="4401:4612" ph="..." />
+            <marker date="1393226818000" expanded="true" signature="4849:4909" ph="..." />
+            <marker date="1393226818000" expanded="true" signature="5269:5459" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/frontpages/cart/showitem.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-552">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/frontpages/cart/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4898">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/frontpages/book/desc.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="22" column="87" lean-forward="false" selection-start-line="22" selection-start-column="87" selection-end-line="22" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/frontpages/css/book/desc.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="93" lean-forward="true" selection-start-line="19" selection-start-column="93" selection-end-line="19" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/frontpages/pager/pager.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="94" column="58" lean-forward="true" selection-start-line="94" selection-start-column="58" selection-end-line="94" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/adminjsps/admin/book/desc.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1863">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/frontpages/css/book/list.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="72" lean-forward="true" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/frontpages/msg.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1361">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/frontpages/body.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="79" column="43" lean-forward="false" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookStore/goods/Utils/CommonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/adminjsps/admin/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-303">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/frontpages/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="53" column="65" lean-forward="true" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/frontpages/left.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="122" column="23" lean-forward="true" selection-start-line="122" selection-start-column="23" selection-end-line="122" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookStore/goods/book/servlet/BookServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1288">
+          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookStore/goods/category/servlet/CategoryServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookStore/goods/cart/servlet/CartItemServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="66" column="27" lean-forward="false" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/adminjsps/admin/css/book/list.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/adminjsps/admin/book/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/frontpages/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="34" column="96" lean-forward="false" selection-start-line="34" selection-start-column="96" selection-end-line="34" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookStore/goods/user/servlet/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookStore/goods/user/servlet/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3753">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/adminjsps/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="92" column="66" lean-forward="true" selection-start-line="92" selection-start-column="66" selection-end-line="92" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/adminjsps/admin/book/body.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookStore/goods/order/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookStore/goods/cart/dao/CartItemDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="94" column="48" lean-forward="true" selection-start-line="94" selection-start-column="48" selection-end-line="94" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookStore/goods/cart/service/CartItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookStore/goods/admin/servlet/AdminLoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="129" column="33" lean-forward="false" selection-start-line="129" selection-start-column="17" selection-end-line="129" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/adminjsps/admin/css/book/add.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="54" column="52" lean-forward="true" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/adminjsps/admin/book/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1568">
+          <caret line="81" column="50" lean-forward="true" selection-start-line="81" selection-start-column="50" selection-end-line="81" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/adminjsps/admin/css/book/desc.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/adminjsps/admin/css/book/left.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookStore/goods/order/servlet/AdminOrderServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookStore/goods/order/servlet/OrderServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="155" column="30" lean-forward="false" selection-start-line="155" selection-start-column="30" selection-end-line="155" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookStore/goods/order/dao/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookStore/goods/Utils/MyQueryRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="24" column="66" lean-forward="false" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookStore/goods/admin/servlet/AdminServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookStore/goods/book/servlet/AdminAddBookServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-575">
+          <caret line="59" column="54" lean-forward="true" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookStore/goods/category/servlet/AdminCategoryServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-418">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookStore/goods/Utils/MyServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="16" column="56" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookStore/goods/Utils/VerifyCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookStore/goods/book/servlet/AdminBookServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="125" column="22" lean-forward="false" selection-start-line="125" selection-start-column="17" selection-end-line="125" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookStore/goods/Utils/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="26" column="55" lean-forward="false" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookStore/goods/Utils/JdbcUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="45" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookStore/goods/book/dao/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="132" column="47" lean-forward="true" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>bookStore:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>bookStore</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
